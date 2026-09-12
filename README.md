@@ -18,6 +18,8 @@ A Python desktop application for managing and processing media that I am authori
 
 \- Audio downloading
 
+\- MP3 and MP4 output with embedded metadata and artwork
+
 \- Windows desktop application
 
 
@@ -59,4 +61,13 @@ A Python desktop application for managing and processing media that I am authori
 \- Tkinter
 
 \- PyInstaller
+
+\- Mutagen (MP3/MP4 metadata embedding)
+
+## Install
+
+```powershell
+python -m pip install -r requirements.txt
+python app.py
+```
 
